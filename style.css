@@ -171,10 +171,14 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 400px;
-  width: 400px;
-  margin: auto 0;
+  height: 300px;
+  width: 300px;
+  border-radius: 2rem;
 }
+
+.pfp_pic {
+    border-radius: 100%;
+  }
 
 .section__text {
   align-self: center;
